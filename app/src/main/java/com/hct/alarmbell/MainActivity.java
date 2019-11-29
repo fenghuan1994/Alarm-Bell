@@ -9,13 +9,9 @@ import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.hct.alarmbell.services.FlashLightServices;
-import com.hct.alarmbell.services.RingServices;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -36,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_alarmbell_main);
         mFlashBtn = (CheckBox) findViewById(R.id.flashlight);
         mFlashBtn.setOnClickListener(this);
         mAlarmBtn = (CheckBox) findViewById(R.id.alarmbell);
