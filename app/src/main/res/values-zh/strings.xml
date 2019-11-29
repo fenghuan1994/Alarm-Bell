@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">警铃</string>
+    <string name="btn_flashlight_title">闪灯</string>
+    <string name="btn_alarm_title">警报</string>
+    <string name="btn_screenflash_title">屏闪</string>
+</resources>

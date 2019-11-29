@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Alarm bell</string>
+    <string name="btn_flashlight_title">Flash Light</string>
+    <string name="btn_alarm_title">Alarm Bell</string>
+    <string name="btn_screenflash_title">Screen Flash</string>
+</resources>
